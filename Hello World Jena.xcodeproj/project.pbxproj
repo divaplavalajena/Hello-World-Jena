@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CCE2CB71B75618600FD5E00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE2CB61B75618600FD5E00 /* AppDelegate.swift */; };
+		9CCE2CB91B75618600FD5E00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE2CB81B75618600FD5E00 /* ViewController.swift */; };
+		9CCE2CBC1B75618600FD5E00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CCE2CBA1B75618600FD5E00 /* Main.storyboard */; };
+		9CCE2CBE1B75618600FD5E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CCE2CBD1B75618600FD5E00 /* Assets.xcassets */; };
+		9CCE2CC11B75618600FD5E00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CCE2CBF1B75618600FD5E00 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9CCE2CB31B75618600FD5E00 /* Hello World Jena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World Jena.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CCE2CB61B75618600FD5E00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CCE2CB81B75618600FD5E00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CCE2CBB1B75618600FD5E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CCE2CBD1B75618600FD5E00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CCE2CC01B75618600FD5E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CCE2CC21B75618600FD5E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CCE2CB01B75618600FD5E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CCE2CAA1B75618600FD5E00 = {
+			isa = PBXGroup;
+			children = (
+				9CCE2CB51B75618600FD5E00 /* Hello World Jena */,
+				9CCE2CB41B75618600FD5E00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CCE2CB41B75618600FD5E00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CCE2CB31B75618600FD5E00 /* Hello World Jena.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CCE2CB51B75618600FD5E00 /* Hello World Jena */ = {
+			isa = PBXGroup;
+			children = (
+				9CCE2CB61B75618600FD5E00 /* AppDelegate.swift */,
+				9CCE2CB81B75618600FD5E00 /* ViewController.swift */,
+				9CCE2CBA1B75618600FD5E00 /* Main.storyboard */,
+				9CCE2CBD1B75618600FD5E00 /* Assets.xcassets */,
+				9CCE2CBF1B75618600FD5E00 /* LaunchScreen.storyboard */,
+				9CCE2CC21B75618600FD5E00 /* Info.plist */,
+			);
+			path = "Hello World Jena";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CCE2CB21B75618600FD5E00 /* Hello World Jena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CCE2CC51B75618600FD5E00 /* Build configuration list for PBXNativeTarget "Hello World Jena" */;
+			buildPhases = (
+				9CCE2CAF1B75618600FD5E00 /* Sources */,
+				9CCE2CB01B75618600FD5E00 /* Frameworks */,
+				9CCE2CB11B75618600FD5E00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hello World Jena";
+			productName = "Hello World Jena";
+			productReference = 9CCE2CB31B75618600FD5E00 /* Hello World Jena.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CCE2CAB1B75618600FD5E00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Bella Voce Productions";
+				TargetAttributes = {
+					9CCE2CB21B75618600FD5E00 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 9CCE2CAE1B75618600FD5E00 /* Build configuration list for PBXProject "Hello World Jena" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CCE2CAA1B75618600FD5E00;
+			productRefGroup = 9CCE2CB41B75618600FD5E00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CCE2CB21B75618600FD5E00 /* Hello World Jena */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CCE2CB11B75618600FD5E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CCE2CC11B75618600FD5E00 /* LaunchScreen.storyboard in Resources */,
+				9CCE2CBE1B75618600FD5E00 /* Assets.xcassets in Resources */,
+				9CCE2CBC1B75618600FD5E00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CCE2CAF1B75618600FD5E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CCE2CB91B75618600FD5E00 /* ViewController.swift in Sources */,
+				9CCE2CB71B75618600FD5E00 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CCE2CBA1B75618600FD5E00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CCE2CBB1B75618600FD5E00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CCE2CBF1B75618600FD5E00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CCE2CC01B75618600FD5E00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CCE2CC31B75618600FD5E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CCE2CC41B75618600FD5E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CCE2CC61B75618600FD5E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hello World Jena/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bellavoceproductions.Hello-World-Jena";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9CCE2CC71B75618600FD5E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hello World Jena/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bellavoceproductions.Hello-World-Jena";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CCE2CAE1B75618600FD5E00 /* Build configuration list for PBXProject "Hello World Jena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CCE2CC31B75618600FD5E00 /* Debug */,
+				9CCE2CC41B75618600FD5E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CCE2CC51B75618600FD5E00 /* Build configuration list for PBXNativeTarget "Hello World Jena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CCE2CC61B75618600FD5E00 /* Debug */,
+				9CCE2CC71B75618600FD5E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CCE2CAB1B75618600FD5E00 /* Project object */;
+}
