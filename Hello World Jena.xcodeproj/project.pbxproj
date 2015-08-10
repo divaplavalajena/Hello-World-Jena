@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C50976A1B756B9800FD9F6A /* cat1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5097691B756B9800FD9F6A /* cat1.png */; };
+		9C50976C1B756D1B00FD9F6A /* michael_emerson.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C50976B1B756D1B00FD9F6A /* michael_emerson.png */; };
 		9CCE2CB71B75618600FD5E00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE2CB61B75618600FD5E00 /* AppDelegate.swift */; };
 		9CCE2CB91B75618600FD5E00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCE2CB81B75618600FD5E00 /* ViewController.swift */; };
 		9CCE2CBC1B75618600FD5E00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CCE2CBA1B75618600FD5E00 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C5097691B756B9800FD9F6A /* cat1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat1.png; sourceTree = "<group>"; };
+		9C50976B1B756D1B00FD9F6A /* michael_emerson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = michael_emerson.png; sourceTree = "<group>"; };
 		9CCE2CB31B75618600FD5E00 /* Hello World Jena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World Jena.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CCE2CB61B75618600FD5E00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CCE2CB81B75618600FD5E00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				9CCE2CB61B75618600FD5E00 /* AppDelegate.swift */,
 				9CCE2CB81B75618600FD5E00 /* ViewController.swift */,
+				9C50976B1B756D1B00FD9F6A /* michael_emerson.png */,
+				9C5097691B756B9800FD9F6A /* cat1.png */,
 				9CCE2CBA1B75618600FD5E00 /* Main.storyboard */,
 				9CCE2CBD1B75618600FD5E00 /* Assets.xcassets */,
 				9CCE2CBF1B75618600FD5E00 /* LaunchScreen.storyboard */,
@@ -121,6 +127,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C50976C1B756D1B00FD9F6A /* michael_emerson.png in Resources */,
+				9C50976A1B756B9800FD9F6A /* cat1.png in Resources */,
 				9CCE2CC11B75618600FD5E00 /* LaunchScreen.storyboard in Resources */,
 				9CCE2CBE1B75618600FD5E00 /* Assets.xcassets in Resources */,
 				9CCE2CBC1B75618600FD5E00 /* Main.storyboard in Resources */,
@@ -283,6 +291,7 @@
 				9CCE2CC71B75618600FD5E00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
